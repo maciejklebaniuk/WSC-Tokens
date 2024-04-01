@@ -1,0 +1,300 @@
+$map-button-fonts: (
+    xs: (
+        default: (
+            font-family: 'Inter',
+            font-size: 12px,
+            font-weight: 500,
+            line-height: 1,
+        ),
+    ),
+    sm: (
+        default: (
+            font-family: 'Inter',
+            font-size: 14px,
+            font-weight: 500,
+            line-height: 1,
+        ),
+    ),
+    base: (
+        default: (
+            font-family: 'Inter',
+            font-size: 14px,
+            font-weight: 500,
+            line-height: 1,
+        ),
+    ),
+    lg: (
+        default: (
+            font-family: 'Inter',
+            font-size: 16px,
+            font-weight: 500,
+            line-height: 1,
+        ),
+    ),
+    xl: (
+        default: (
+            font-family: 'Inter',
+            font-size: 16px,
+            font-weight: 500,
+            line-height: 1,
+        ),
+    ),
+);
+
+$map-button-sizes: (
+    xs: (
+        default: (
+            padding-top: 8px,
+            padding-right: 10px,
+            padding-bottom: 8px,
+            padding-left: 10px,
+            border-width: 1px,
+            border-radius: 4px,
+            gap: 4px,
+            min-width: 32px,
+            min-height: 32px,
+            icon: (
+                font-size: 16px,
+            ),
+        ),
+    ),
+    sm: (
+        default: (
+            padding-top: 10px,
+            padding-right: 16px,
+            padding-bottom: 10px,
+            padding-left: 16px,
+            border-width: 1px,
+            border-radius: 4px,
+            gap: 4px,
+            min-width: 36px,
+            min-height: 36px,
+            icon: (
+                font-size: 16px,
+            ),
+        ),
+    ),
+    base: (
+        default: (
+            padding-top: 10px,
+            padding-right: 24px,
+            padding-bottom: 10px,
+            padding-left: 24px,
+            border-width: 1px,
+            border-radius: 6px,
+            gap: 4px,
+            min-width: 40px,
+            min-height: 40px,
+            icon: (
+                font-size: 20px,
+            ),
+        ),
+    ),
+    lg: (
+        default: (
+            padding-top: 12px,
+            padding-right: 32px,
+            padding-bottom: 12px,
+            padding-left: 32px,
+            border-width: 1px,
+            border-radius: 8px,
+            gap: 4px,
+            min-width: 48px,
+            min-height: 48px,
+            icon: (
+                font-size: 24px,
+            ),
+        ),
+    ),
+    xl: (
+        default: (
+            padding-top: 16px,
+            padding-right: 32px,
+            padding-bottom: 16px,
+            padding-left: 32px,
+            border-width: 1px,
+            border-radius: 8px,
+            gap: 4px,
+            min-width: 56px,
+            min-height: 56px,
+            icon: (
+                font-size: 24px,
+            ),
+        ),
+    ),
+);
+
+$map-button-colors: (
+    brand: (
+        default: (
+            background: var(--brand-500),
+            border-color: var(--brand-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        hover: (
+            background: var(--brand-600),
+            border-color: var(--brand-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        focus: (
+            background: var(--brand-500),
+            border-color: var(--brand-500),
+            color: var(--white),
+            outline-color: var(--brand-200),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        active: (
+            background: var(--brand-600),
+            border-color: var(--brand-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        disabled: (
+            background: var(--gray-200),
+            border-color: var(--gray-200),
+            color: var(--gray-400),
+            icon: (
+                color: var(--gray-400),
+            )
+        ),
+    ),
+    brand-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--brand-500),
+            color: var(--brand-500),
+            icon: (
+                color: var(--brand-500),
+            )
+        ),
+        hover: (
+            background: transparent,
+            border-color: var(--brand-600),
+            color: var(--brand-600),
+            icon: (
+                color: var(--brand-600),
+            )
+        ),
+        focus: (
+            background: var(--brand-500),
+            border-color: var(--brand-500),
+            color: var(--white),
+            outline-color: var(--brand-200),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        active: (
+            background: var(--brand-600),
+            border-color: var(--brand-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        disabled: (
+            background: var(--gray-200),
+            border-color: var(--gray-200),
+            color: var(--gray-400),
+            icon: (
+                color: var(--gray-400),
+            )
+        ),
+    ),
+    gray: (
+        default: (
+            background: var(--gray-500),
+            border-color: var(--gray-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        hover: (
+            background: var(--gray-600),
+            border-color: var(--gray-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        focus: (
+            background: var(--gray-500),
+            border-color: var(--gray-500),
+            color: var(--white),
+            outline-color: var(--gray-200),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        active: (
+            background: var(--gray-600),
+            border-color: var(--gray-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        disabled: (
+            background: var(--gray-700),
+            border-color: var(--gray-700),
+            color: var(--gray-400),
+            icon: (
+                color: var(--gray-400),
+            )
+        ),
+    ),
+    gray-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--gray-500),
+            color: var(--gray-500),
+            icon: (
+                color: var(--gray-500),
+            )
+        ),
+        hover: (
+            background: transparent,
+            border-color: var(--gray-600),
+            color: var(--gray-600),
+            icon: (
+                color: var(--gray-600),
+            )
+        ),
+        focus: (
+            background: var(--gray-500),
+            border-color: var(--gray-500),
+            color: var(--white),
+            outline-color: var(--gray-200),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        active: (
+            background: var(--gray-600),
+            border-color: var(--gray-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+        disabled: (
+            background: var(--gray-700),
+            border-color: var(--gray-700),
+            color: var(--gray-400),
+            icon: (
+                color: var(--gray-400),
+            )
+        ),
+    ),
+);

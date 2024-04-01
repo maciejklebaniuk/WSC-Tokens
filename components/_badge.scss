@@ -1,0 +1,288 @@
+$map-badge-fonts: (
+    sm: (
+        default: (
+            font-family: 'Inter',
+            font-size: 12px,
+            font-weight: 600,
+            line-height: 1,
+        ),
+    ),
+    base: (
+        default: (
+            font-family: 'Inter',
+            font-size: 12px,
+            font-weight: 600,
+            line-height: 1,
+        ),
+    ),
+    lg: (
+        default: (
+            font-family: 'Inter',
+            font-size: 12px,
+            font-weight: 600,
+            line-height: 1,
+        ),
+    ),
+);
+$map-badge-sizes: (
+    sm: (
+        default: (
+            padding-top: 2px,
+            padding-right: 8px,
+            padding-bottom: 2px,
+            padding-left: 8px,
+            border-width: 1px,
+            border-radius: 999px,
+            gap: 4px,
+            min-width: 20px,
+            min-height: 20px,
+            icon: (
+                font-size: 16px,
+            ),
+        ),
+    ),
+    base: (
+        default: (
+            padding-top: 4px,
+            padding-right: 10px,
+            padding-bottom: 4px,
+            padding-left: 10px,
+            border-width: 1px,
+            border-radius: 999px,
+            gap: 4px,
+            min-width: 24px,
+            min-height: 24px,
+            icon: (
+                font-size: 16px,
+            ),
+        ),
+    ),
+    lg: (
+        default: (
+            padding-top: 8px,
+            padding-right: 12px,
+            padding-bottom: 8px,
+            padding-left: 12px,
+            border-width: 1px,
+            border-radius: 999px,
+            gap: 4px,
+            min-width: 32px,
+            min-height: 32px,
+            icon: (
+                font-size: 16px,
+            ),
+        ),
+    ),
+);
+$map-badge-colors: (
+    brand: (
+        default: (
+            background: var(--brand-500),
+            border-color: var(--brand-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    brand-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--brand-500),
+            color: var(--brand-500),
+            icon: (
+                color: var(--brand-500),
+            )
+        ),
+    ),
+    brand-subtle: (
+        default: (
+            background: var(--brand-50),
+            border-color: var(--brand-50),
+            color: var(--brand-700),
+            icon: (
+                color: var(--brand-700),
+            )
+        ),
+    ),
+    gray: (
+        default: (
+            background: var(--gray-500),
+            border-color: var(--gray-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    gray-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--gray-200),
+            color: var(--gray-600),
+            icon: (
+                color: var(--gray-600),
+            )
+        ),
+    ),
+    gray-subtle: (
+        default: (
+            background: var(--gray-200),
+            border-color: var(--gray-200),
+            color: var(--gray-600),
+            icon: (
+                color: var(--gray-600),
+            )
+        ),
+    ),
+    success: (
+        default: (
+            background: var(--success-500),
+            border-color: var(--success-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    success-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--success-600),
+            color: var(--success-600),
+            icon: (
+                color: var(--success-600),
+            )
+        ),
+    ),
+    success-subtle: (
+        default: (
+            background: var(--success-100),
+            border-color: var(--success-100),
+            color: var(--success-700),
+            icon: (
+                color: var(--success-700),
+            )
+        ),
+    ),
+    warning: (
+        default: (
+            background: var(--warning-600),
+            border-color: var(--warning-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    warning-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--warning-600),
+            color: var(--warning-600),
+            icon: (
+                color: var(--warning-600),
+            )
+        ),
+    ),
+    warning-subtle: (
+        default: (
+            background: var(--warning-100),
+            border-color: var(--warning-100),
+            color: var(--warning-800),
+            icon: (
+                color: var(--warning-800),
+            )
+        ),
+    ),
+    danger: (
+        default: (
+            background: var(--danger-600),
+            border-color: var(--danger-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    danger-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--danger-600),
+            color: var(--danger-600),
+            icon: (
+                color: var(--danger-600),
+            )
+        ),
+    ),
+    danger-subtle: (
+        default: (
+            background: var(--danger-100),
+            border-color: var(--danger-100),
+            color: var(--danger-600),
+            icon: (
+                color: var(--danger-600),
+            )
+        ),
+    ),
+    orange: (
+        default: (
+            background: var(--orange-600),
+            border-color: var(--orange-600),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    orange-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--orange-600),
+            color: var(--orange-600),
+            icon: (
+                color: var(--orange-600),
+            )
+        ),
+    ),
+    orange-subtle: (
+        default: (
+            background: var(--orange-100),
+            border-color: var(--orange-100),
+            color: var(--orange-700),
+            icon: (
+                color: var(--orange-700),
+            )
+        ),
+    ),
+    blue: (
+        default: (
+            background: var(--blue-500),
+            border-color: var(--blue-500),
+            color: var(--white),
+            icon: (
+                color: var(--white),
+            )
+        ),
+    ),
+    blue-outline: (
+        default: (
+            background: transparent,
+            border-color: var(--blue-500),
+            color: var(--blue-600),
+            icon: (
+                color: var(--blue-600),
+            )
+        ),
+    ),
+    blue-subtle: (
+        default: (
+            background: var(--blue-50),
+            border-color: var(--blue-50),
+            color: var(--blue-700),
+            icon: (
+                color: var(--blue-700),
+            )
+        ),
+    ),
+);
